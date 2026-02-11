@@ -1,0 +1,124 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+
+.product-card {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  margin: 120px auto 0 auto;
+  display: flex;
+  box-sizing: border-box;
+}
+
+
+.left-img-col {
+  width: 50%;
+  height: 100%;
+}
+
+.left-img-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.right-info-col {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+
+.right-info-col h3 {
+  font-size: 32px;
+  margin: 0;
+}
+
+
+.right-info-col h5 {
+  font-size: 18px;
+  color: lightgray;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+
+.right-info-col p {
+  font-size: 14px;
+  padding-left: 50px;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+  color: #333;
+}
+
+
+.available-colors {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+
+.black-color-container,
+.red-color-container,
+.white-color-container {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.black-color-container {
+  background-color: black;
+}
+
+.red-color-container {
+  background-color: red;
+}
+
+.white-color-container {
+  background-color: beige;
+}
+
+/* ===== Price + Button ===== */
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.price h4 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.buy-btn {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px; 
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.buy-btn:hover {
+  opacity: 0.85;
+}
